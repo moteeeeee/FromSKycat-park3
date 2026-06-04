@@ -56,7 +56,7 @@ export default function BookingForm({ booking, addNotif }: any) {
   try {
 
     await axios.post(
-  "https://fencing-squeamish-repave.ngrok-free.dev",
+  "https://fencing-squeamish-repave.ngrok-free.dev/booking",
       {
         line_user_id: uid,
         fullname: form.name,
